@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('messi5.jpg', 1)
-img2 = cv2.imread('opencv-logo.png', 1)
+img = cv2.imread('./data/messi5.jpg', 1)
+img2 = cv2.imread('./data/opencv-logo.png', 1)
 img3 = np.ones([5,5,3], dtype=np.uint8)
 
 print(img.shape)  # rows, columns, channelsg

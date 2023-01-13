@@ -1,7 +1,7 @@
 import numpy as np 
 import cv2
 
-img = cv2.imread('gradient.png', -1)
+img = cv2.imread('./data/gradient.png', -1)
 
 _, th1 = cv2.threshold(img, 50, 255, cv2.THRESH_BINARY)
 _, th2 = cv2.threshold(img, 170, 255, cv2.THRESH_BINARY_INV)
